@@ -197,7 +197,7 @@ class WinnerPayoutPayload(BaseModel):
 app = FastAPI(title="Golf Impact Platform", version="1.0.0")
 origins = [
     "http://localhost:5173",
-    "https://golf-frontend-hxiqhmyl3-muskan090s-projects.vercel.app/"
+    "https://golf-frontend-hxiqhmyl3-muskan090s-projects.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
