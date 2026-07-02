@@ -1,0 +1,20 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #f5f7fb; background: linear-gradient(135deg, #07111f, #19314c); }
+body { margin: 0; background: linear-gradient(135deg, #07111f, #19314c); color: #f5f7fb; }
+* { box-sizing: border-box; }
+.app-shell { min-height: 100vh; padding: 24px; }
+.hero { max-width: 900px; margin: 0 auto 24px; padding: 32px; border-radius: 24px; background: rgba(255,255,255,0.08); backdrop-filter: blur(12px); }
+.eyebrow { text-transform: uppercase; letter-spacing: 0.3em; color: #7ad2ff; }
+.actions button, .card button, .card input, .card select { margin-top: 8px; margin-right: 8px; padding: 10px 12px; border-radius: 999px; border: 1px solid #5fc8ff; background: #0f1d2d; color: white; }
+.card { max-width: 900px; margin: 0 auto 24px; padding: 24px; border-radius: 20px; background: rgba(255,255,255,0.08); }
+.charity-item { padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.12); }
+.dashboard-grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 24px; }
+.dashboard-card { padding: 18px; border-radius: 18px; background: rgba(10, 22, 40, 0.85); border: 1px solid rgba(95,200,255,0.18); }
+.dashboard-card input,
+.dashboard-card textarea,
+.dashboard-card button { width: 100%; margin-top: 10px; }
+.dashboard-card textarea { resize: vertical; }
+.dashboard-card ul { list-style: none; padding: 0; margin: 0; }
+.dashboard-card li { margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,0.08); }
+.dashboard-card li button { width: auto; }
+.inline-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.inline-actions button { width: auto; margin-top: 0; }
